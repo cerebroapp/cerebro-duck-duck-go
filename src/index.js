@@ -12,7 +12,7 @@ const plugin = ({ term, actions, display }) => {
   display({
     icon: icon,
     order: order, // High priority
-    title: `Search DuckDuckGo For ${term}`,
+    title: `Search DuckDuckGo for ${term}`,
     onSelect: () => search(term)
   })
 }
