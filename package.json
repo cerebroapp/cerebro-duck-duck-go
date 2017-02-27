@@ -1,6 +1,6 @@
 {
   "name": "cerebro-duck-duck-go",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Use Duck Duck Go as your Cerebro App search engine",
   "license": "MIT",
   "repository": "tiagoamaro/cerebro-duck-duck-go",
