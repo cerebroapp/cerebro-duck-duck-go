@@ -1,9 +1,21 @@
-'use strict';
+import icon from './icon.png'
 
-const plugin = ({term, display, actions}) => {
-  // It is your main plugin function
-  // do something and call display() with your results
-};
+const order = 1
+
+const plugin = ({ term, actions, display }) => {
+  var search = (searchTerm) => {
+    const q = encodeURIComponent(searchTerm)
+    actions.open(`https://duckduckgo.com/?q=${q}`)
+    actions.hideWindow()
+  }
+
+  display({
+    icon: icon,
+    order: order, // High priority
+    title: `Search DuckDuckGo For ${term}`,
+    onSelect: () => search(term)
+  })
+}
 
 module.exports = {
   fn: plugin

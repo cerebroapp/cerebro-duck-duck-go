@@ -1,13 +1,13 @@
 {
-  "name": "cerebro-plugin",
-  "version": "0.0.2",
-  "description": "",
+  "name": "cerebro-duck-duck-go",
+  "version": "0.0.1",
+  "description": "Use Duck Duck Go as your Cerebro App search engine",
   "license": "MIT",
-  "repository": "KELiON/cerebro-plugin",
+  "repository": "tiagoamaro/cerebro-duck-duck-go",
   "author": {
-    "name": "Alexandr Subbotin",
-    "email": "kelionweb@gmail.com",
-    "url": "asubbotin.ru"
+    "name": "Tiago Amaro",
+    "email": "tiagopadrela@gmail.com",
+    "url": "tiagoamaro.com.br"
   },
   "engines": {
     "node": ">=4"
@@ -21,7 +21,7 @@
   "main": "dist/index.js",
   "keywords": [
     "cerebro",
-    "cerebro-plugin"
+    "cerebro-duck-duck-go"
   ],
   "devDependencies": {
     "babel-cli": "^6.18.0",

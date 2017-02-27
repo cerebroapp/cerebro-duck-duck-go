@@ -1,4 +1,4 @@
-# Cerebro Plugin
+# Cerebro DuckDuckGo Plugin
 
 > It is boilerplate to create plugins for [Cerebro app](http://www.cerebroapp.com)
 
