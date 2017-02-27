@@ -1,3 +1,5 @@
+import React from 'react'
+import Preview from './Preview'
 import icon from './icon.png'
 
 const order = 1
@@ -12,8 +14,9 @@ const plugin = ({ term, actions, display }) => {
   display({
     icon: icon,
     order: order, // High priority
-    title: `Search DuckDuckGo for ${term}`,
-    onSelect: () => search(term)
+    title: `Search DuckDuckGo For ${term}`,
+    onSelect: () => search(term),
+    getPreview: () => <Preview query={term} key={term} search={search} />
   })
 }
 
