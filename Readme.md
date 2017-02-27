@@ -4,13 +4,14 @@
 
 ## Usage
 
-In Cerebro, type any term, and the DuckDuckGo option will show above Google suggestions:
+In Cerebro, type any term, and the DuckDuckGo plugin will show some suggestions:
 
 ![Sample](screenshot.png)
 
-## TODO
+## Roadmap
 
-- Preview Results as [Cerebro's native Google Plugin](https://github.com/KELiON/cerebro/blob/master/app/main/plugins/core/google/index.js)
+- [x] Preview Results as [Cerebro's native Google Plugin](https://github.com/KELiON/cerebro/blob/master/app/main/plugins/core/google/index.js)
+    - Solved at https://github.com/tiagoamaro/cerebro-duck-duck-go/pull/1. Thanks @KELiON!
 
 ## License
 
